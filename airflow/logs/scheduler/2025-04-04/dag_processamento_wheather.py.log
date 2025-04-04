@@ -1,0 +1,1513 @@
+[2025-04-04T22:57:23.225+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T22:57:23.230+0000] {processor.py:186} INFO - Started process (PID=270) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:57:23.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T22:57:23.232+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:57:23.232+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:57:23.236+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:57:23.235+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T22:57:23.236+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:57:23.255+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T22:57:53.682+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T22:57:53.688+0000] {processor.py:186} INFO - Started process (PID=273) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:57:53.688+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T22:57:53.690+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:57:53.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:57:53.694+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:57:53.693+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T22:57:53.694+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:57:53.712+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T22:58:24.135+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T22:58:24.140+0000] {processor.py:186} INFO - Started process (PID=276) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:58:24.141+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T22:58:24.143+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:58:24.143+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:58:24.146+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:58:24.145+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T22:58:24.146+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:58:24.164+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T22:58:54.539+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T22:58:54.545+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:58:54.546+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T22:58:54.548+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:58:54.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:58:54.551+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:58:54.550+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T22:58:54.551+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:58:54.569+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T22:59:25.003+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T22:59:25.010+0000] {processor.py:186} INFO - Started process (PID=282) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:59:25.010+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T22:59:25.013+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:59:25.012+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:59:25.016+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:59:25.015+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T22:59:25.017+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:59:25.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T22:59:55.387+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T22:59:55.392+0000] {processor.py:186} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:59:55.393+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T22:59:55.395+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:59:55.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:59:55.399+0000] {logging_mixin.py:190} INFO - [2025-04-04T22:59:55.398+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T22:59:55.400+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T22:59:55.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.036 seconds
+[2025-04-04T23:00:25.842+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:00:25.851+0000] {processor.py:186} INFO - Started process (PID=288) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:00:25.851+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:00:25.854+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:00:25.853+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:00:25.858+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:00:25.857+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:00:25.859+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:00:25.878+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.039 seconds
+[2025-04-04T23:00:56.289+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:00:56.296+0000] {processor.py:186} INFO - Started process (PID=291) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:00:56.296+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:00:56.299+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:00:56.299+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:00:56.302+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:00:56.301+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:00:56.303+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:00:56.321+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:01:26.704+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:01:26.710+0000] {processor.py:186} INFO - Started process (PID=294) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:01:26.710+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:01:26.712+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:01:26.712+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:01:26.716+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:01:26.715+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:01:26.716+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:01:26.733+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:01:57.147+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:01:57.153+0000] {processor.py:186} INFO - Started process (PID=297) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:01:57.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:01:57.155+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:01:57.155+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:01:57.158+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:01:57.157+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:01:57.159+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:01:57.178+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:02:27.746+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:02:27.753+0000] {processor.py:186} INFO - Started process (PID=300) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:02:27.753+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:02:27.755+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:02:27.755+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:02:27.758+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:02:27.757+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:02:27.759+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:02:27.776+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:02:58.181+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:02:58.186+0000] {processor.py:186} INFO - Started process (PID=303) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:02:58.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:02:58.188+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:02:58.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:02:58.193+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:02:58.192+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:02:58.193+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:02:58.213+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:03:28.560+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:03:28.566+0000] {processor.py:186} INFO - Started process (PID=306) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:03:28.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:03:28.568+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:03:28.568+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:03:28.571+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:03:28.570+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:03:28.571+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:03:28.586+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.028 seconds
+[2025-04-04T23:03:58.977+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:03:58.982+0000] {processor.py:186} INFO - Started process (PID=309) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:03:58.982+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:03:58.984+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:03:58.983+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:03:58.986+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:03:58.986+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:03:58.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:03:59.004+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.029 seconds
+[2025-04-04T23:04:29.423+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:04:29.429+0000] {processor.py:186} INFO - Started process (PID=312) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:04:29.429+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:04:29.431+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:04:29.431+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:04:29.434+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:04:29.433+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:04:29.435+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:04:29.453+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:04:59.826+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:04:59.831+0000] {processor.py:186} INFO - Started process (PID=315) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:04:59.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:04:59.833+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:04:59.833+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:04:59.836+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:04:59.835+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:04:59.836+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:04:59.855+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:05:30.225+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:05:30.232+0000] {processor.py:186} INFO - Started process (PID=318) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:05:30.232+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:05:30.234+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:05:30.233+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:05:30.237+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:05:30.236+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:05:30.238+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:05:30.261+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.039 seconds
+[2025-04-04T23:06:00.543+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:06:00.548+0000] {processor.py:186} INFO - Started process (PID=321) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:06:00.549+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:06:00.551+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:06:00.551+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:06:00.554+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:06:00.553+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:06:00.555+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:06:00.572+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:06:30.946+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:06:30.953+0000] {processor.py:186} INFO - Started process (PID=324) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:06:30.953+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:06:30.955+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:06:30.955+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:06:30.958+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:06:30.958+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:06:30.959+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:06:30.975+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:07:01.405+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:07:01.412+0000] {processor.py:186} INFO - Started process (PID=327) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:07:01.412+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:07:01.414+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:07:01.414+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:07:01.417+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:07:01.416+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:07:01.418+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:07:01.434+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:07:31.759+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:07:31.765+0000] {processor.py:186} INFO - Started process (PID=330) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:07:31.765+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:07:31.767+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:07:31.767+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:07:31.770+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:07:31.769+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:07:31.771+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:07:31.788+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:08:02.200+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:08:02.206+0000] {processor.py:186} INFO - Started process (PID=333) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:08:02.206+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:08:02.208+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:08:02.208+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:08:02.211+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:08:02.210+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:08:02.212+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:08:02.229+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:08:32.592+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:08:32.598+0000] {processor.py:186} INFO - Started process (PID=336) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:08:32.598+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:08:32.600+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:08:32.600+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:08:32.604+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:08:32.603+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:08:32.604+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:08:32.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:09:02.995+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:09:03.002+0000] {processor.py:186} INFO - Started process (PID=339) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:09:03.003+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:09:03.006+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:09:03.006+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:09:03.010+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:09:03.009+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:09:03.011+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:09:03.030+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.037 seconds
+[2025-04-04T23:09:33.396+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:09:33.402+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:09:33.402+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:09:33.404+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:09:33.404+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:09:33.407+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:09:33.406+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:09:33.408+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:09:33.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:10:03.727+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:10:03.732+0000] {processor.py:186} INFO - Started process (PID=345) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:10:03.733+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:10:03.735+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:10:03.735+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:10:03.738+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:10:03.737+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:10:03.738+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:10:03.755+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:10:34.112+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:10:34.118+0000] {processor.py:186} INFO - Started process (PID=348) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:10:34.118+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:10:34.121+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:10:34.121+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:10:34.124+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:10:34.123+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:10:34.125+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:10:34.142+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:11:04.512+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:11:04.519+0000] {processor.py:186} INFO - Started process (PID=351) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:11:04.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:11:04.521+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:11:04.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:11:04.525+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:11:04.524+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:11:04.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:11:04.541+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:11:34.852+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:11:34.858+0000] {processor.py:186} INFO - Started process (PID=354) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:11:34.858+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:11:34.860+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:11:34.860+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:11:34.864+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:11:34.863+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:11:34.864+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:11:34.881+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:12:05.223+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:12:05.229+0000] {processor.py:186} INFO - Started process (PID=357) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:12:05.230+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:12:05.232+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:12:05.231+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:12:05.235+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:12:05.234+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:12:05.235+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:12:05.251+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:12:35.556+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:12:35.562+0000] {processor.py:186} INFO - Started process (PID=360) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:12:35.563+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:12:35.564+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:12:35.564+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:12:35.568+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:12:35.567+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:12:35.568+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:12:35.585+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:13:05.882+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:13:05.888+0000] {processor.py:186} INFO - Started process (PID=363) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:13:05.888+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:13:05.890+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:13:05.890+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:13:05.894+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:13:05.893+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:13:05.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:13:05.910+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:13:36.241+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:13:36.248+0000] {processor.py:186} INFO - Started process (PID=366) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:13:36.248+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:13:36.250+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:13:36.250+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:13:36.253+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:13:36.252+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:13:36.254+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:13:36.272+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:14:06.694+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:14:06.700+0000] {processor.py:186} INFO - Started process (PID=369) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:14:06.700+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:14:06.702+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:14:06.702+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:14:06.706+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:14:06.705+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:14:06.706+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:14:06.724+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:14:37.088+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:14:37.095+0000] {processor.py:186} INFO - Started process (PID=372) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:14:37.096+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:14:37.097+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:14:37.097+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:14:37.101+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:14:37.100+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:14:37.101+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:14:37.119+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:15:07.388+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:15:07.395+0000] {processor.py:186} INFO - Started process (PID=375) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:15:07.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:15:07.396+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:15:07.396+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:15:07.400+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:15:07.399+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:15:07.401+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:15:07.420+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.035 seconds
+[2025-04-04T23:15:37.728+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:15:37.735+0000] {processor.py:186} INFO - Started process (PID=378) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:15:37.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:15:37.737+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:15:37.737+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:15:37.740+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:15:37.740+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:15:37.741+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:15:37.759+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:16:08.058+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:16:08.062+0000] {processor.py:186} INFO - Started process (PID=381) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:16:08.063+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:16:08.064+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:16:08.064+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:16:08.067+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:16:08.066+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:16:08.067+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:16:08.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.027 seconds
+[2025-04-04T23:16:38.434+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:16:38.440+0000] {processor.py:186} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:16:38.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:16:38.442+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:16:38.442+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:16:38.446+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:16:38.445+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:16:38.446+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:16:38.465+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:17:08.796+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:17:08.803+0000] {processor.py:186} INFO - Started process (PID=387) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:17:08.803+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:17:08.805+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:17:08.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:17:08.808+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:17:08.807+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:17:08.808+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:17:08.824+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:17:39.144+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:17:39.149+0000] {processor.py:186} INFO - Started process (PID=390) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:17:39.149+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:17:39.151+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:17:39.150+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:17:39.154+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:17:39.153+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:17:39.154+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:17:39.169+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.027 seconds
+[2025-04-04T23:18:09.476+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:18:09.483+0000] {processor.py:186} INFO - Started process (PID=393) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:18:09.484+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:18:09.486+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:18:09.486+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:18:09.489+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:18:09.488+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:18:09.490+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:18:09.507+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:18:39.820+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:18:39.825+0000] {processor.py:186} INFO - Started process (PID=396) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:18:39.825+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:18:39.827+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:18:39.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:18:39.830+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:18:39.829+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:18:39.831+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:18:39.849+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:19:10.169+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:19:10.174+0000] {processor.py:186} INFO - Started process (PID=399) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:19:10.175+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:19:10.177+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:19:10.177+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:19:10.180+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:19:10.179+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:19:10.180+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:19:10.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:19:40.517+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:19:40.522+0000] {processor.py:186} INFO - Started process (PID=402) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:19:40.523+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:19:40.525+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:19:40.525+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:19:40.528+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:19:40.527+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:19:40.529+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:19:40.548+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:20:10.859+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:20:10.865+0000] {processor.py:186} INFO - Started process (PID=405) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:20:10.866+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:20:10.868+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:20:10.868+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:20:10.871+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:20:10.870+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:20:10.872+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:20:10.889+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:20:41.186+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:20:41.191+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:20:41.191+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:20:41.193+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:20:41.193+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:20:41.196+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:20:41.195+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:20:41.196+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:20:41.214+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:21:11.513+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:21:11.519+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:21:11.519+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:21:11.521+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:21:11.521+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:21:11.525+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:21:11.524+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:21:11.525+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:21:11.544+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:21:41.787+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:21:41.793+0000] {processor.py:186} INFO - Started process (PID=414) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:21:41.794+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:21:41.796+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:21:41.796+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:21:41.800+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:21:41.799+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:21:41.800+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:21:41.820+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.036 seconds
+[2025-04-04T23:22:12.169+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:22:12.174+0000] {processor.py:186} INFO - Started process (PID=417) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:22:12.174+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:22:12.176+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:22:12.176+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:22:12.181+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:22:12.179+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:22:12.181+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:22:12.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:22:42.507+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:22:42.512+0000] {processor.py:186} INFO - Started process (PID=420) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:22:42.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:22:42.515+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:22:42.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:22:42.519+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:22:42.518+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:22:42.519+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:22:42.535+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:23:12.833+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:23:12.838+0000] {processor.py:186} INFO - Started process (PID=423) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:23:12.838+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:23:12.840+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:23:12.840+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:23:12.843+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:23:12.843+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:23:12.844+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:23:12.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:23:43.178+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:23:43.185+0000] {processor.py:186} INFO - Started process (PID=426) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:23:43.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:23:43.188+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:23:43.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:23:43.191+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:23:43.190+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:23:43.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:23:43.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.035 seconds
+[2025-04-04T23:24:13.540+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:24:13.545+0000] {processor.py:186} INFO - Started process (PID=429) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:24:13.545+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:24:13.547+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:24:13.547+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:24:13.550+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:24:13.549+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:24:13.550+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:24:13.567+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.029 seconds
+[2025-04-04T23:24:43.844+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:24:43.852+0000] {processor.py:186} INFO - Started process (PID=432) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:24:43.852+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:24:43.855+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:24:43.855+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:24:43.858+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:24:43.857+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:24:43.859+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:24:43.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:25:14.175+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:25:14.181+0000] {processor.py:186} INFO - Started process (PID=435) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:25:14.182+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:25:14.183+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:25:14.183+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:25:14.187+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:25:14.186+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:25:14.187+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:25:14.204+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:25:44.459+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:25:44.466+0000] {processor.py:186} INFO - Started process (PID=438) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:25:44.467+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:25:44.469+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:25:44.468+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:25:44.472+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:25:44.471+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:25:44.472+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:25:44.492+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.035 seconds
+[2025-04-04T23:26:14.773+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:26:14.779+0000] {processor.py:186} INFO - Started process (PID=441) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:26:14.780+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:26:14.782+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:26:14.782+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:26:14.786+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:26:14.785+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:26:14.786+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:26:14.805+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:26:45.093+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:26:45.099+0000] {processor.py:186} INFO - Started process (PID=444) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:26:45.099+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:26:45.101+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:26:45.101+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:26:45.105+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:26:45.103+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:26:45.105+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:26:45.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:27:15.370+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:27:15.375+0000] {processor.py:186} INFO - Started process (PID=447) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:27:15.375+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:27:15.377+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:27:15.377+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:27:15.381+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:27:15.380+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:27:15.381+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:27:15.400+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:27:45.666+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:27:45.672+0000] {processor.py:186} INFO - Started process (PID=450) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:27:45.673+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:27:45.675+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:27:45.674+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:27:45.678+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:27:45.677+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:27:45.679+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:27:45.696+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:28:15.974+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:28:15.980+0000] {processor.py:186} INFO - Started process (PID=453) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:28:15.980+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:28:15.982+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:28:15.982+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:28:15.986+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:28:15.985+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:28:15.987+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:28:16.005+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:28:46.268+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:28:46.273+0000] {processor.py:186} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:28:46.273+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:28:46.275+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:28:46.275+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:28:46.278+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:28:46.278+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:28:46.279+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:28:46.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:29:16.567+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:29:16.574+0000] {processor.py:186} INFO - Started process (PID=459) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:29:16.575+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:29:16.577+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:29:16.577+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:29:16.580+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:29:16.579+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:29:16.581+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:29:16.599+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:29:46.815+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:29:46.820+0000] {processor.py:186} INFO - Started process (PID=462) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:29:46.820+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:29:46.823+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:29:46.823+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:29:46.826+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:29:46.825+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:29:46.827+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:29:46.843+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:30:17.061+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:30:17.068+0000] {processor.py:186} INFO - Started process (PID=465) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:30:17.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:30:17.071+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:30:17.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:30:17.075+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:30:17.074+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:30:17.075+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:30:17.096+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.038 seconds
+[2025-04-04T23:30:47.370+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:30:47.376+0000] {processor.py:186} INFO - Started process (PID=468) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:30:47.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:30:47.379+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:30:47.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:30:47.382+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:30:47.381+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:30:47.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:30:47.399+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.032 seconds
+[2025-04-04T23:31:17.613+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:31:17.620+0000] {processor.py:186} INFO - Started process (PID=471) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:31:17.620+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:31:17.622+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:31:17.622+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:31:17.625+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:31:17.624+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:31:17.626+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:31:17.641+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.029 seconds
+[2025-04-04T23:31:47.880+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:31:47.887+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:31:47.887+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:31:47.889+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:31:47.889+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:31:47.894+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:31:47.892+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:31:47.894+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:31:47.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.036 seconds
+[2025-04-04T23:32:18.085+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:32:18.093+0000] {processor.py:186} INFO - Started process (PID=477) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:32:18.093+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:32:18.096+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:32:18.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:32:18.100+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:32:18.098+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:32:18.100+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:32:18.121+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.038 seconds
+[2025-04-04T23:32:48.370+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:32:48.377+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:32:48.377+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:32:48.379+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:32:48.379+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:32:48.383+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:32:48.382+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:32:48.383+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:32:48.402+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:33:18.677+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:33:18.684+0000] {processor.py:186} INFO - Started process (PID=483) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:33:18.685+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:33:18.687+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:33:18.686+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:33:18.690+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:33:18.689+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:33:18.690+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:33:18.709+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:33:48.925+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:33:48.932+0000] {processor.py:186} INFO - Started process (PID=486) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:33:48.933+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:33:48.935+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:33:48.935+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:33:48.939+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:33:48.938+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:33:48.939+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:33:48.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.035 seconds
+[2025-04-04T23:34:19.179+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:34:19.186+0000] {processor.py:186} INFO - Started process (PID=489) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:34:19.187+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:34:19.189+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:34:19.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:34:19.192+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:34:19.191+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:34:19.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:34:19.211+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:34:49.342+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:34:49.350+0000] {processor.py:186} INFO - Started process (PID=492) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:34:49.350+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:34:49.352+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:34:49.352+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:34:49.357+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:34:49.355+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:34:49.357+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:34:49.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.036 seconds
+[2025-04-04T23:35:19.652+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:35:19.658+0000] {processor.py:186} INFO - Started process (PID=495) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:35:19.659+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:35:19.661+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:35:19.661+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:35:19.665+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:35:19.664+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:35:19.665+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:35:19.687+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.037 seconds
+[2025-04-04T23:35:49.957+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:35:49.963+0000] {processor.py:186} INFO - Started process (PID=498) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:35:49.964+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:35:49.966+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:35:49.966+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:35:49.970+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:35:49.969+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:35:49.970+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:35:49.987+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:36:20.179+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:36:20.186+0000] {processor.py:186} INFO - Started process (PID=501) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:36:20.186+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:36:20.188+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:36:20.188+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:36:20.192+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:36:20.191+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:36:20.192+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:36:20.210+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:36:50.389+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:36:50.397+0000] {processor.py:186} INFO - Started process (PID=504) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:36:50.397+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:36:50.399+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:36:50.399+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:36:50.403+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:36:50.402+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:36:50.403+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:36:50.423+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.041 seconds
+[2025-04-04T23:37:20.654+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:37:20.660+0000] {processor.py:186} INFO - Started process (PID=507) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:37:20.661+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:37:20.663+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:37:20.662+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:37:20.667+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:37:20.666+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:37:20.667+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:37:20.683+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:37:50.893+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:37:50.902+0000] {processor.py:186} INFO - Started process (PID=510) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:37:50.902+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:37:50.904+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:37:50.904+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:37:50.909+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:37:50.908+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:37:50.909+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:37:50.934+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.046 seconds
+[2025-04-04T23:38:21.112+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:38:21.118+0000] {processor.py:186} INFO - Started process (PID=513) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:38:21.119+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:38:21.120+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:38:21.120+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:38:21.123+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:38:21.122+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:38:21.124+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:38:21.141+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.031 seconds
+[2025-04-04T23:38:51.339+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:38:51.346+0000] {processor.py:186} INFO - Started process (PID=516) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:38:51.346+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:38:51.348+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:38:51.348+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:38:51.352+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:38:51.350+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:38:51.352+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:38:51.371+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:39:22.172+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:39:22.179+0000] {processor.py:186} INFO - Started process (PID=519) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:39:22.179+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:39:22.181+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:39:22.181+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:39:22.184+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:39:22.183+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:39:22.185+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:39:22.202+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.033 seconds
+[2025-04-04T23:39:52.835+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:39:52.840+0000] {processor.py:186} INFO - Started process (PID=522) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:39:52.841+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:39:52.842+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:39:52.842+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:39:52.846+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:39:52.845+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:39:52.846+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:39:52.862+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:40:23.064+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:40:23.069+0000] {processor.py:186} INFO - Started process (PID=525) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:40:23.069+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:40:23.071+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:40:23.071+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:40:23.074+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:40:23.073+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:40:23.075+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:40:23.091+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.030 seconds
+[2025-04-04T23:40:53.253+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:40:53.259+0000] {processor.py:186} INFO - Started process (PID=528) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:40:53.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:40:53.261+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:40:53.261+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:40:53.265+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:40:53.264+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:40:53.265+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:40:53.284+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.034 seconds
+[2025-04-04T23:41:23.478+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:41:23.485+0000] {processor.py:186} INFO - Started process (PID=531) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:41:23.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:41:23.487+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:41:23.487+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:41:23.491+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:41:23.490+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:41:23.491+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:41:23.511+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.036 seconds
+[2025-04-04T23:41:53.677+0000] {logging_mixin.py:190} WARNING - /home/airflow/.local/lib/python3.12/site-packages/airflow/settings.py:470 DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+[2025-04-04T23:41:53.686+0000] {processor.py:186} INFO - Started process (PID=534) to work on /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:41:53.686+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/dag_processamento_wheather.py for tasks to queue
+[2025-04-04T23:41:53.691+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:41:53.690+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:41:53.696+0000] {logging_mixin.py:190} INFO - [2025-04-04T23:41:53.695+0000] {dagbag.py:387} ERROR - Failed to import: /opt/airflow/dags/dag_processamento_wheather.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/dagbag.py", line 383, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 995, in exec_module
+  File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+  File "/opt/airflow/dags/dag_processamento_wheather.py", line 6, in <module>
+    from include.ml_utils import clean_data_polars, transform_features_polars
+  File "/opt/airflow/dags/include/ml_utils.py", line 1, in <module>
+    import polars as pl
+ModuleNotFoundError: No module named 'polars'
+[2025-04-04T23:41:53.697+0000] {processor.py:927} WARNING - No viable dags retrieved from /opt/airflow/dags/dag_processamento_wheather.py
+[2025-04-04T23:41:53.721+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/dag_processamento_wheather.py took 0.048 seconds

@@ -1,0 +1,21 @@
+# Use a imagem base do Airflow
+FROM apache/airflow:2.10.5
+
+# Instale o GCC e outras dependências necessárias
+USER root
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    gcc \
+    python3-dev \
+    libffi-dev \
+    musl-dev \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
+# Mude para o usuário airflow
+USER airflow
+
+# Copie o arquivo requirements.txt para a imagem
+COPY requirements.txt .
+
+# Instale os pacotes Python do arquivo requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
